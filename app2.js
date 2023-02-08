@@ -25,8 +25,3 @@ while(!maxNum){
     } else {
         alert(`You got it! The number was ${numAnswer}. It took you ${attempts} attempts to guess.`);
     }
-
-
-
-
-
