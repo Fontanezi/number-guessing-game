@@ -6,13 +6,8 @@ while(!maxNum){
     maxNum = parseInt(prompt("Enter a valid number!"));
 }
     const numAnswer = Math.floor(Math.random() * maxNum) + 1;
-    alert(numAnswer);
 
     let guess = prompt("Enter your first guess:");
-
-    while(!parseInt(guess)){
-        guess = prompt("Enter a valid number!");
-    }
 
     let attempts = 1;
 
